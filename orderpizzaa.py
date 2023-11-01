@@ -59,6 +59,7 @@ else:
 print("Terimakaasih anda telah memesan pizza dengan ukuran", UkuranPizza, "dengan harga", Harga_Ukuranpizza)
 
 # Biaya tambahan cheese
+Ekstra_Cheese = (input("Apakah anda ingin mendapatkan Ekstra Cheese dengan menambah Rp. 13.000 ? (Yes/No) : "))
 if Ekstra_Cheese == "Yes" :
     Extra_Fee = 13000
 elif Ekstra_Cheese == "No" :
