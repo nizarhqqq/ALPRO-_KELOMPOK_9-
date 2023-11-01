@@ -32,6 +32,11 @@ if crustpizza == "Pan Crust":
 elif crustpizza == "Stuffed Crust":
     harga_crustpizza = 6000
 elif crustpizza == "Crown Crust":
+    harga_crustpizza = 40000
+elif crustpizza == "Cheesy Bites":
+    harga_crustpizza = 50000
+else:
+    print("PESANAN ANDA TIDAK VALID")
 
 print("Personal")
 print("Medium")
@@ -52,11 +57,6 @@ else:
     print("PESANAN ANDA TIDAK VALID")
 
 print("Terimakaasih anda telah memesan pizza dengan ukuran", UkuranPizza, "dengan harga", Harga_Ukuranpizza)
-    harga_crustpizza = 40000
-elif crustpizza == "Cheesy Bites":
-    harga_crustpizza = 50000
-else:
-    print("PESANAN ANDA TIDAK VALID")
 
 # Biaya tambahan cheese
 if Ekstra_Cheese == "Yes" :
