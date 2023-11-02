@@ -23,7 +23,7 @@ print("=====================================\n")
 print("Pan Crust")
 print("Stuffed Crust")
 print("Crown Crust")
-print("Cheesy Bire")
+print("Cheesy Bites")
 
 crustpizza = input("\nSilakan pilih Crush Pizza :")
 harga_crustpizza = 0
@@ -72,7 +72,7 @@ else:
 total_biaya = hargatoping + harga_crustpizza + Harga_Ukuranpizza + Extra_Fee
 # Menampilkan pesanan dan total biaya
 print("Thank you for choosing pizza D4MI!")
-print("You final bill will be : Rp", int(total_biaya))
+print("FINAL BILL : Rp", int(total_biaya))
 
 
    
