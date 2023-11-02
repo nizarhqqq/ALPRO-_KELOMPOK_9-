@@ -1,5 +1,4 @@
 
- 
 Tugas Algoritma pemrograman (21/10/2023)
 
 kelas 2023D angkatan 2023 kelompok 9 :
